@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package js11;
 
-/**
- *
- * @author Galih
- */
 public class CobaOperasiString {
-    
+    public static void main(String[] args){
+        String identitas = "Galih Satria Rachmanda/X RPL 2/16";
+        System.out.println("Identitas: "+identitas);
+    }
 }
