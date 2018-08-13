@@ -30,6 +30,20 @@ public class CobaOperasiString {
                             +x.equals(r));
         System.out.println("isi variabel x sama dengan r (Not Case Sensitive) : "
                             +x.equalsIgnoreCase(r));
+        
+         
+        System.out.println("perbandingan isi x dengan y : "+x.compareTo(y));
+        System.out.println("perbandingan isi x dengan z (Case Sensitive) : "
+                            +x.compareTo(z));
+        System.out.println("perbandingan isi x dengan r (Case Sensitive) : "
+                            +x.compareTo(r));
+        System.out.println("perbandingan isi x dengan r (Not Case sensitive) : "
+                            +x.compareToIgnoreCase(r));
+        
+        String s = "operasI";
+        System.out.println("perbandingan isi r dengan s (Case Sensitive) : "
+                            +r.compareTo(s));
+        
     }
         
 }
