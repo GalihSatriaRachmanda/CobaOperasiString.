@@ -41,6 +41,7 @@ public class CobaOperasiString {
                             +x.compareToIgnoreCase(r));
         
         String s = "operasI";
+        System.out.println("isi variabel s: "+s);
         System.out.println("perbandingan isi r dengan s (Case Sensitive) : "
                             +r.compareTo(s));
         
