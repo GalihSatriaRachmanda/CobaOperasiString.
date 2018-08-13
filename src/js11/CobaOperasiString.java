@@ -79,6 +79,9 @@ public class CobaOperasiString {
  
             System.out.println(arrTr[i]);
         }
+        double d = 1545454000;
+        System.out.println(String.format("Uang Saya %,.4f", d));                    
+        System.out.println(String.format(Locale.forLanguageTag("in-ID"),"uang saya Rp %,.2f", d));
     }
         
 }
